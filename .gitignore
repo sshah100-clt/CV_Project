@@ -1,0 +1,16 @@
+# data, model weights and outputs (data comes from the official dataset pages and the GitHub release)
+data/
+results/
+logs/
+release/
+hf_cache/
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+*.lock
+
+# macOS (also the ._* files that macOS writes on exFAT drives)
+.DS_Store
+._*
